@@ -1,4 +1,4 @@
-name: Windows Vagrant VM
+name: Windows Vagrant VM 
 
 on:
   release:
