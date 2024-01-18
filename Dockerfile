@@ -25,8 +25,8 @@ RUN wget https://releases.hashicorp.com/vagrant/2.4.0/vagrant_2.4.0-1_amd64.deb 
 # Installtion of vagrant plugins
 RUN vagrant plugin install vagrant-libvirt
 # Installtion of vagrant box
-RUN vagrant box add --provider libvirt peru/windows-server-2022-standard-x64-eval && \
-    vagrant init peru/windows-server-2022-standard-x64-eval
+RUN vagrant box add --provider libvirt peru/windows-10-enterprise-x64-eval && \
+    vagrant init peru/windows-10-enterprise-x64-eval
 
 ENV PRIVILEGED=true
 ENV INTERACTIVE=true
