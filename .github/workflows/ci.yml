@@ -1,8 +1,12 @@
 name: Windows Vagrant VM 
 
 on:
-  release:
-    types: [published]
+  push:
+    branches:
+      - main
+# on:      
+#  release:
+#    types: [published]
 
 # on:
 #   push:
